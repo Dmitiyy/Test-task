@@ -1,0 +1,163 @@
+* { 
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;  
+}
+
+.start_btn {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 2px solid black;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.start_btn:hover {
+  border: 2px solid white;
+}
+
+.step_1 {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: none;
+}
+
+.step_1 video {
+  width: 250px;
+  border-radius: 10%;
+  border: 2px solid black;
+}
+
+.explanation_rus { 
+  margin-top: 10px;
+}
+
+.step_2_wrap { 
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 340px;
+}
+
+.step_3_wrap { 
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 340px;
+}
+
+.next_step {
+  width: 130px;
+  height: 40px;
+  background: lightblue;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.step_2 { 
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: none;
+}
+
+.step_2_btn_item { 
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  border: 2px solid black;
+  background: lightblue;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.step_3 { 
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: none;
+}
+
+.step_3_btn_item { 
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  border: 2px solid black;
+  background: lightblue;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.step_4 { 
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: none;
+}
+
+.step_4 input { 
+  width: 300px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.done {
+  text-align: center;
+  color: green;
+  margin-top: 20px;
+  opacity: 0;
+}
+
+.done::placeholder {
+  color: black;
+}
